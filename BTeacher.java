@@ -19,7 +19,7 @@ public class BTeacher extends BPerson{
 
     @Override
     public String toString(){
-
+        //True == full-time and False == part-time
         String fp = fulltime? "full-time" : "part-time";
         return String.format("%s and they work %s",super.toString(),fp);
 
